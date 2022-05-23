@@ -1,13 +1,15 @@
-.profile {
-    border:#6a3e7a  2px double;
-font-family: Georgia, 'Times New Roman', Times, serif;
-box-shadow: 5px 5px #9765a9b8;
+.student-gallery {
+    border-style: groove;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-color: #529a8f73;
+    padding-right: 30px;
+
 }
   
 img {
     width: 190px;
     height: 180px;
-    border:#6a3e7a  2px;
+  
   }
   
   div.cohort-list {

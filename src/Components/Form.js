@@ -37,7 +37,7 @@ class Form extends React.Component {
     const { student } = this.props
 
     return (
-      <section className='form'>
+      <section className='notes'>
         <h3>1-on-1 Notes</h3>
         <form onSubmit={this.handleSubmit}>
           <label> Commenter Name: </label>

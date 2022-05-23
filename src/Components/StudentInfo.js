@@ -38,8 +38,8 @@ class StudentInfo extends React.Component {
     const { names, username, profilePhoto, dob } = student
     const { showMore } = this.state
     return (
-      <article className='profile'>
-        <img src={profilePhoto} alt='student' />
+      <article className='student-gallery'>
+        <img src={profilePhoto} alt={names.preferredName} />
         <p>
           {names.preferredName} {names.middleName.charAt()}. {names.surname}
         </p>

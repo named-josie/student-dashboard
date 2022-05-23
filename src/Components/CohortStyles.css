@@ -1,13 +1,13 @@
 h2{
-color: rgba(252, 252, 250, 0.657);
+color: #1d66a6
 }
 
 .cohort-list{
-    background-color: rgba(173, 128, 203, 0.469);
+    background-color: #ad80cb78;
 }
 .list {
     text-decoration: underline;
-font-size: large;
+font-size: x-large;
 font-family: Georgia, 'Times New Roman', Times, serif;
 color: aliceblue;
 
