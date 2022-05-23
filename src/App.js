@@ -36,7 +36,7 @@ class App extends React.Component {
 
     return (
       <section>
-        <h1>Student Dashboard</h1>
+        <h1 className='header'>Student Dashboard</h1>
         <div className='student-dashboard'>
           <CorhortSection students={STUDENTS} selectedCohort={this.selectedCohort} />
           <StudentSection
