@@ -1,0 +1,95 @@
+h1 {
+    text-align: center;
+    background-image: url("https://images.theconversation.com/files/433499/original/file-20211123-17-199wbff.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=900.0&fit=crop");
+    margin: 0%;
+    font-size: xx-large;
+    padding: 2%;
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px 2px #3e6c7c;
+  }
+  
+.student-dashboard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #a87db4f1;
+    background-image: url('https://i.pinimg.com/originals/35/29/1d/35291db0e9cb68968df70bafb01338db.jpg');
+    background-size: contain;
+  }
+  
+  .profile {
+    border:#6b3e7c  2px dotted
+
+
+}
+  
+img {
+    width: 165px;
+    height: 165px;
+  }
+  
+  div.cohort-list {
+    width: 50%;
+    height: 125vh;
+    top: 5%;
+    position: -webkit-sticky;
+    position: sticky;
+  }
+  
+  .showmore {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+  }
+  
+  .visited {
+    text-decoration: underline;
+    color: purple;
+    cursor: pointer;
+  }
+  
+  
+  
+  section.show-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .red {
+    color: red;
+  }
+  .yellow {
+    color: #dec20b;
+  }
+  
+  .green {
+    color: green;
+  }
+  
+  .scores {
+    position: relative;
+    left: 259px;
+    top: -188px;
+  }
+  
+  .certifications {
+    position: relative;
+    left: 500px;
+    top: -343px;
+  }
+  
+  .form {
+    position: relative;
+    top: -300px;
+  }
+  
+  .ontrack {
+    position: relative;
+    top: -300px;
+    left: 500px;
+  }
+  
+  .list:hover {
+    color: #9a5296;
+    cursor: pointer;
+  }
