@@ -56,7 +56,7 @@ class Form extends React.Component {
           />
           <br />
           <br />
-          <button type='submit'>Add Note</button>
+          <button style= "cursor:pointer" type='submit'>Add Note</button>
         </form>
         <div>
           <ul>
