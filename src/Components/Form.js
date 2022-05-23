@@ -19,10 +19,6 @@ class Form extends React.Component {
     event.target.reset()
   }
 
-//   resetFormFields = () => {
-//     return ''
-//   }
-
   name = (event) => {
     const { value } = event.target
     this.setState({ commenterName: value })

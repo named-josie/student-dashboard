@@ -10,16 +10,9 @@
 img {
     width: 190px;
     height: 180px;
-  
+  border: rgb(52, 125, 132) 4px solid;
   }
   
-  .cohort-list {
-    width: 50%;
-    height: 125vh;
-    top: 5%;
-    position: -webkit-sticky;
-    position: sticky;
-  }
   
   .showmore {
     text-decoration: underline;
