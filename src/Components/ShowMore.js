@@ -1,5 +1,5 @@
 import Form from './Form'
-
+import "./showmore.css"
 function ShowMore({ student: { codewars, cohort, certifications }, student }) {
   const percentage = (current, goal) => {
     let percent = 0
@@ -26,21 +26,19 @@ function ShowMore({ student: { codewars, cohort, certifications }, student }) {
   return (
     <div className='show-info'>
       <div>
-        <h2>Codewars:</h2>
+        <h2 className="codewars">Codewars</h2>
         <p>Current Total: {codewars.current.total}</p>
         <p>Last Week: {codewars.current.lastWeek}</p>
         <p>Goal: {codewars.goal.total}</p>
-        <p
-          className={checkPercentage(
+        <h4 className={checkPercentage(
             percentage(codewars.current.total, codewars.goal.total)
           )}
-        >
-          Percent of Goal Achieved:{' '}
+        >Percent of Goal Achieved:{' '}
           {percentage(codewars.current.total, codewars.goal.total)}%
-        </p>
+        </h4>
       </div>
       <div className='scores'>
-        <h2>Scores</h2>
+        <h2 className='move'>Scores</h2>
         <p>Assignments: {cohort.scores.assignments * 100} %</p>
         <p>Project: {cohort.scores.projects * 100} %</p>
         <p>Assessments: {cohort.scores.assessments * 100} %</p>

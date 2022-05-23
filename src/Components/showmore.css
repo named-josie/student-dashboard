@@ -1,0 +1,45 @@
+
+
+  section.show-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .red {
+    color: red;
+  }
+  .yellow {
+    color: #ffde05;
+  }
+  
+  .green {
+    color: green;
+  }
+  
+ .codewars {
+    position: relative;
+
+ }
+ .scores {
+    position: relative;
+    left: 357px;
+    top: -236px;
+  }
+  
+  .certifications {
+    position: relative;
+    left: 700px;
+    top: -421px;
+  }
+  
+  .form {
+    position: relative;
+    top: -300px;
+
+  }
+  
+  .ontrack {
+    position: relative;
+    top: -300px;
+    left: 500px;
+  }
