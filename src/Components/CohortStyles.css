@@ -1,7 +1,10 @@
 h2{
-color: aliceblue;
+color: rgba(252, 252, 250, 0.657);
 }
 
+.cohort-list{
+    background-color: rgba(173, 128, 203, 0.469);
+}
 .list {
     text-decoration: underline;
 font-size: large;

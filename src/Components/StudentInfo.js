@@ -11,11 +11,11 @@ class StudentInfo extends React.Component {
   }
 
   onTrack = (person) => {
-    let cert = person.certifications
-    let certVales = Object.values(cert)
+    let certified = person.certifications
+    let verified = Object.values(certified)
     let codeGrades = person.codewars.current.total
 
-    if (!certVales.includes(false) && codeGrades > 600) {
+    if (!verified.includes(false) && codeGrades > 600) {
       return true
     }
     return false
@@ -25,13 +25,13 @@ class StudentInfo extends React.Component {
     this.setState({ showMore: !showMore })
   }
   birthday = (date) => {
-    let formatDate = new Date(date).toLocaleDateString('en-US', {
+    let formattedDate = new Date(date).toLocaleDateString('en-US', {
       year: 'numeric',
       month: 'long',
       day: 'numeric',
     }) // https://www.tutorialstonight.com/format-javascript-date.php  found to convert dob
 
-    return formatDate
+    return formattedDate
   }
   render() {
     const { student } = this.props
