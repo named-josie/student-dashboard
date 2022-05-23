@@ -1,6 +1,6 @@
 import React from 'react'
 import ShowMore from './ShowMore'
-
+import './StudentInfo.css'
 class StudentInfo extends React.Component {
   constructor() {
     super()

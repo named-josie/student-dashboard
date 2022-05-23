@@ -1,0 +1,77 @@
+.profile {
+    border:#6a3e7a  2px double;
+font-family: Georgia, 'Times New Roman', Times, serif;
+box-shadow: 5px 5px #9765a9b8;
+}
+  
+img {
+    width: 190px;
+    height: 180px;
+    border:#6a3e7a  2px;
+  }
+  
+  div.cohort-list {
+    width: 50%;
+    height: 125vh;
+    top: 5%;
+    position: -webkit-sticky;
+    position: sticky;
+  }
+  
+  .showmore {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+  }
+  
+  .visited {
+    text-decoration: underline;
+    color: purple;
+    cursor: pointer;
+  }
+  
+  
+  
+  section.show-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .red {
+    color: red;
+  }
+  .yellow {
+    color: #ffde05;
+  }
+  
+  .green {
+    color: green;
+  }
+  
+  .scores {
+    position: relative;
+    left: 259px;
+    top: -188px;
+  }
+  
+  .certifications {
+    position: relative;
+    left: 500px;
+    top: -343px;
+  }
+  
+  .form {
+    position: relative;
+    top: -300px;
+  }
+  
+  .ontrack {
+    position: relative;
+    top: -300px;
+    left: 500px;
+  }
+  
+  .list:hover {
+    color: #9a5296;
+    cursor: pointer;
+  }
