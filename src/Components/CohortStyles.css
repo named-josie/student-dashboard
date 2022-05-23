@@ -6,11 +6,12 @@ color: #1d66a6
     background-color: #ad80cb78;
 }
 .list {
-    text-decoration: underline;
+    /* text-decoration: underline; */
 font-size: x-large;
 font-family: Georgia, 'Times New Roman', Times, serif;
 color: aliceblue;
-
+border-style: inset;
+border-color: rgba(255, 0, 238, 0.486);
 }
 
 
