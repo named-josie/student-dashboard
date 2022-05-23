@@ -7,7 +7,7 @@ import '../Components/CohortStyles.css'
 
 /**
  * 
- * @param {students, selectedCohort} 
+ * @param {object} 
  * 
  */
 
