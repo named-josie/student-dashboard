@@ -1,5 +1,12 @@
 import Form from './Form'
 import "./showmore.css"
+
+/**
+ * 
+ * @param {object} student 
+ * @returns 
+ */
+
 function ShowMore({ student: { codewars, cohort, certifications }, student }) {
   const percentage = (current, goal) => {
     let percent = 0

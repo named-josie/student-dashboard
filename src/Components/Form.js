@@ -36,7 +36,7 @@ class Form extends React.Component {
       <section className='notes'>
         <h3>1-on-1 Notes</h3>
         <form onSubmit={this.handleSubmit}>
-          <label> Commenter Name: </label>
+          <label>  Name:  </label>
           <input
             id='text'
             name='value'
@@ -56,7 +56,7 @@ class Form extends React.Component {
           />
           <br />
           <br />
-          <button style= "cursor:pointer" type='submit'>Add Note</button>
+          <button type='submit'>Add Note</button>
         </form>
         <div>
           <ul>
