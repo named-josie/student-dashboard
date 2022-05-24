@@ -12,8 +12,8 @@
 .student-dashboard {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-color: #a87db4f1;
-    background-image: url('https://i.pinimg.com/564x/50/bd/78/50bd787bedd65b9f74c2d60934786b16.jpg');
+    background-color: #01b8e181;
+    /* background-image: url('https://i.pinimg.com/564x/50/bd/78/50bd787bedd65b9f74c2d60934786b16.jpg'); */
     background-size: contain;
     font-size: larger;  
 }

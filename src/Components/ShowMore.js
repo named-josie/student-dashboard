@@ -37,6 +37,7 @@ function ShowMore({ student: { codewars, cohort, certifications }, student }) {
         <p>Current Total: {codewars.current.total}</p>
         <p>Last Week: {codewars.current.lastWeek}</p>
         <p>Goal: {codewars.goal.total}</p>
+        
         <h4 className={checkPercentage(
             percentage(codewars.current.total, codewars.goal.total)
           )}
