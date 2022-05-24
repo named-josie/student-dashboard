@@ -2,15 +2,15 @@
     border-style: groove;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-color: #527b9a73;
-    box-shadow: 1px 1px rgba(0, 145, 255, 0.617), -.1em 0 .4em rgb(0, 85, 128);
-    color: #357a7a;
+    box-shadow: 1px 1px #0091ff9d, -.1em 0 .4em #005580;
+    color: #341c7c76;
 
 }
   
 img {
     width: 190px;
     height: 180px;
-  border: rgba(20, 143, 154, 0.436) 4px solid;
+  border: #148f9a6f 4px solid;
   }
   
   
