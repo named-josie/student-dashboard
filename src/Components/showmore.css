@@ -1,9 +1,4 @@
 
-
-  section.show-info {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
   
   .red {
     color: #ff0000;
@@ -16,30 +11,3 @@
     color: #008000;
   }
   
- .codewars {
-    position: relative;
-
- }
- .scores {
-    position: relative;
-    left: 290px;
-    top: -236px;
-  }
-  
-  .certifications {
-    position: relative;
-    left: 500px;
-    top: -424px;
-  }
-  
-  .form {
-    position: relative;
-    top: -300px;
-
-  }
-  
-  .ontrack {
-    position: relative;
-    top: -300px;
-    left: 500px;
-  }

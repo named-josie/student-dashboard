@@ -1,15 +1,5 @@
 import '../Components/CohortStyles.css'
 
-/** 
- stackoverflow https://stackoverflow.com/questions/2254185/regular-expression-for-formatting-numbers-in-javascript
-  //stackover https://stackoverflow.com/questions/56560600/is-there-any-way-to-sort-a-list-of-season-year-in-javascript
-  */
-
-/**
- * 
- * @param {object} 
- * 
- */
 
 
  function CorhortSection({ students, selectedCohort }) {

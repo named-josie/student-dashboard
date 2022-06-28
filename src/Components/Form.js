@@ -62,7 +62,7 @@ class Form extends React.Component {
           <ul>
             {student.notes.length ? (
               <li>
-                {student.notes[0].commenter} says {student.notes[0].comment}
+                {student.notes[0].commenter} : {student.notes[0].comment}
               </li>
             ) : null}
             {comments.map((comment,ind) => (
