@@ -22,17 +22,25 @@ p {
     text-decoration: underline;
     color: #ffffffea;
     cursor: pointer;
+    font-size: 20px;
   }
   
   .visited {
     text-decoration: underline;
-    color: purple;
+    color: #9c54cdcc;
     cursor: pointer;
+    font-size: 19px;
   }
    
 
   
   .list:hover {
-    color: #f6ee0c;
+    color: #ffffff;
     cursor: pointer;
   }
+
+
+.para {
+  font-size: 20px;
+  color: #dac1ebed;
+}

@@ -6,6 +6,7 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-shadow: 2px 2px #3e6c7c;
     padding: 1%;
+    font-size: 25px;
 } 
 
 .image-pencil {
@@ -30,6 +31,6 @@
 
 .cohort-lising {
     padding-top: 10px;
-    color: #ffffff;
+    color: #f0f8ff;
     margin-left: 1%;
 }

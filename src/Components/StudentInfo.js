@@ -38,7 +38,7 @@ class StudentInfo extends React.Component {
           {names.preferredName} {names.middleName.charAt()}. {names.surname}
         </p>
         <p className='para' >{username}</p>
-        <p> <strong style={{ color: "#5faac3"  }}>Birthday:</strong> {dobFormatted}</p>
+        <p className='para' > <strong style={{ color: "#5faac3"  }}>Birthday:</strong> {dobFormatted}</p>
         <p className='ontrack'>
           {this.onTrack(student) ? 'On Track to Graduate' : null}
         </p>

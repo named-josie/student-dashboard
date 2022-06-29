@@ -20,17 +20,21 @@ import '../Components/CohortStyles.css'
     return (
       <div className='cohort-list'>
        <div className='cohort-list-two' >
-        <h2>Choose a Class by Start Date</h2>
-        <section className='semester'>
+        <h2 className='cohort-title'>Choose a Class by Start Date</h2>
+        <div className='semester'>
           <p className='list' onClick={() => selectedCohort(null)}>
             All Students
+            <hr></hr>
           </p>
+          
           {sortSeason.map((list, ind) => (
             <p key={ind} onClick={() => selectedCohort(list)} className='list'>
               {list}
+              <hr></hr>
             </p>
+            
           ))}
-        </section>
+        </div>
      </div>
       </div>
       

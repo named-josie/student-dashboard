@@ -1,1 +1,18 @@
 
+.cohort-list {
+    padding-top: 10px;
+    margin-left: 1%;
+}
+
+.cohort-title {
+color: #f0f8ff;
+}
+
+.semester {
+font-size: 30px;
+background-color: #3a4b733e;
+color: #5faac3;
+padding-bottom: 10px;
+
+}
+
