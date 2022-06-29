@@ -1,0 +1,35 @@
+.header {
+    text-align: center;
+    background-image: url("https://images.theconversation.com/files/433499/original/file-20211123-17-199wbff.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=900.0&fit=crop");
+    margin: 0%;
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px 2px #3e6c7c;
+    padding: 1%;
+} 
+
+.image-pencil {
+    height: 50px;
+  margin-left: 60%;
+
+}
+  
+  
+.student-dashboard {
+  display: grid;
+    grid-template-columns: 390px 1fr;
+    background-color: #141959e8;
+    font-size: larger;  
+}
+
+.total {
+    font-size: 20px;
+    color: #5faac3;
+    margin-left: 1%;
+}
+
+.cohort-lising {
+    padding-top: 10px;
+    color: #ffffff;
+    margin-left: 1%;
+}

@@ -19,6 +19,7 @@ import '../Components/CohortStyles.css'
   
     return (
       <div className='cohort-list'>
+       <div className='cohort-list-two' >
         <h2>Choose a Class by Start Date</h2>
         <section className='semester'>
           <p className='list' onClick={() => selectedCohort(null)}>
@@ -30,7 +31,9 @@ import '../Components/CohortStyles.css'
             </p>
           ))}
         </section>
+     </div>
       </div>
+      
     )
   }
   

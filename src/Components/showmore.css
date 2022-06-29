@@ -1,13 +1,48 @@
-
+.show-info{
+  display: flex;
+  flex-wrap: wrap;
+  color: #82abded6;
+  align-items: flex;
+}
   
+.codewars{
+  background-color: #3a4b733e;
+  font-size: medium;
+ padding: 10px;
+ margin-right: 10px;
+ margin-bottom: 10px;
+ 
+
+}
+
+.scores {
+background-color: #3a4b733e;
+font-size: medium;
+padding: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+}
+
+.certifications {
+  background-color: #3a4b733e;
+  font-size: medium;
+  padding: 20px;
+
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
   .red {
+    padding-top: 10px;
     color: #ff0000;
   }
   .yellow {
+    padding-top: 10px;
     color: #ffde05;
   }
   
   .green {
+    padding-top: 10px;
     color: #008000;
   }
   

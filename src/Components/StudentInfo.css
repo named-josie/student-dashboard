@@ -1,0 +1,38 @@
+.student-gallery {
+    border-style: groove;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-color: #cfd0e773;
+   
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+  
+img {
+    width: 175px;
+    height: 150px;
+  padding: 2%;
+  }
+p {
+  padding: 5px;
+}  
+  
+  .showmore {
+    text-decoration: underline;
+    color: #ffffffea;
+    cursor: pointer;
+  }
+  
+  .visited {
+    text-decoration: underline;
+    color: purple;
+    cursor: pointer;
+  }
+   
+
+  
+  .list:hover {
+    color: #f6ee0c;
+    cursor: pointer;
+  }

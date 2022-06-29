@@ -1,0 +1,33 @@
+.notes {
+    background-color: #3a4b733e;
+    padding: 30px;
+    width: 86%;
+}
+
+.note-title {
+padding-bottom: 10px;
+font-size: 35px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.name,
+.message {
+    margin-bottom: 20px;
+    border: none;
+    color: #8466dfb5;
+    font-size: 18px;
+    
+}
+
+
+.name {
+   
+    /* width: 35%; */
+    border: 1px solid #d3d3d3;
+   
+    
+}
+
+.note-button{
+    margin-bottom: 20px;
+}

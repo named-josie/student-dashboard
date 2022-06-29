@@ -33,22 +33,23 @@ class Form extends React.Component {
     const { student } = this.props
 
     return (
-      <section className='notes'>
-        <h3>1-on-1 Notes</h3>
+      <div className='notes'>
+        <h3 className='note-title'>Leave A Note</h3>
         <form onSubmit={this.handleSubmit}>
-          <label>  Name:  </label>
+          <label  >  Name:  </label>
           <input
+            className='name'
             id='text'
             name='value'
             type='text'
             value={commentName}
             onChange={this.name}
           />
-          <br />
-          <br />
+          <br></br>
           <label> Message: </label>
           <input
             id='text'
+            className='message'
             name='value'
             type='text'
             value={comment}
@@ -56,7 +57,7 @@ class Form extends React.Component {
           />
           <br />
           <br />
-          <button type='submit'>Add Note</button>
+          <button className='note-button' type='submit'>Add Note</button>
         </form>
         <div>
           <ul>
@@ -70,7 +71,7 @@ class Form extends React.Component {
             ))}
           </ul>
         </div>
-      </section>
+      </div>
     )
   }
 }

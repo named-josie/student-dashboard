@@ -1,5 +1,5 @@
 import React from 'react'
-import './data/App.css'
+import './App.css'
 import STUDENTS from './data/data.json'
 import StudentSection from './Components/StudentSection'
 import CorhortSection from "./Components/CohortSection"
@@ -36,7 +36,9 @@ class App extends React.Component {
 
     return (
       <section>
-        <h1 className='header'>Student Dashboard</h1>
+       <div className='header'>
+        <h1 className='App-title'>Student Dashboard</h1>
+        </div>
         <div className='student-dashboard'>
           <CorhortSection students={STUDENTS} selectedCohort={this.selectedCohort} />
           <StudentSection

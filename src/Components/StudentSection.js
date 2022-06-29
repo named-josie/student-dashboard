@@ -14,7 +14,7 @@ function StudentSection({ students, cohortListing }) {
   ));
   return (
     <section className='student-list'>
-      <h2>{cohortListing}</h2>
+      <h2 className='cohort-lising'>{cohortListing}</h2>
       <p className='total' >Total Students: {student.length}</p>
       {student}
     </section>

@@ -32,8 +32,8 @@ function ShowMore({ student: { codewars, cohort, certifications }, student }) {
   }
   return (
     <div className='show-info'>
-      <div>
-        <h2 className="codewars">Codewars</h2>
+      <div className="codewars" >
+        <h2 >Codewars</h2>
         <p>Current Total: {codewars.current.total}</p>
         <p>Last Week: {codewars.current.lastWeek}</p>
         <p>Goal: {codewars.goal.total}</p>
@@ -41,7 +41,7 @@ function ShowMore({ student: { codewars, cohort, certifications }, student }) {
         <h4 className={checkPercentage(
             percentage(codewars.current.total, codewars.goal.total)
           )}
-        >Percent of Goal Achieved:{' '}
+         >Percent of Goal Achieved:{' '}
           {percentage(codewars.current.total, codewars.goal.total)}%
         </h4>
       </div>
